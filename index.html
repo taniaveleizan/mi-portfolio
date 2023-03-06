@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Tania Veleizan">
+    <meta name="description" content="Proyecto: Tu portfolio. Desafio 6 del curso Introductorio de programación ATR de Plataforma 5">
+    <link rel="icon" href="imagenes/mifoto.ico" type="image/x-icon">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Mi Portafolio</title>
+</head>
+<body>
+    <!--BARRA DE NAVEGACION-->
+
+    <header>
+
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Tania Veleizán</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#inicio">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#sobremi">Sobre Mi</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contacto">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+    </header>
+
+    <main>
+    <!--PRESENTACION-->
+<section id="inicio">
+    <div class="presentacion">
+        <h1>Hola!<span>&#128075;&#127996;</span></h1>
+        <p>Soy <span>Tania</span>, Desarrolladora Web.</p>
+        <div class="circulo"><img class="img-fluid" src="imagenes/mifoto.jpg" alt="Foto de Perfil Tania Veleizan"></div>
+        <a class="ver-mas" href="#sobremi">Ver más</a>
+       </div>
+</section>
+    
+    <!--ACERCA DE MI-->
+
+    <section id="sobremi">
+        <div class="contenedor-foto">
+          <img class="img-fluid" src="imagenes/d08bbba4601ca37f02fde44b81c7f7ee.jpg" alt="ilustracion de mujer trabajando con su computadora">
+        </div>
+        <div class="sobremi-box">
+          <h2 class="subtitulo-1">Sobre Mi</h2>
+          <p>Hola! soy Tania, estudio Front-end de manera autodidacta. Voy camino a convertirme en FullStack. Me considero una persona organizada y responsable, con buenas relaciones interpersonales.</p> 
+          <p>Soy capaz de adaptarme con facilidad y rapidez diversas funciones y cuento con la mejor disposición para la realización de mis labores. Estoy en busca de mi primer experiencia laboral en el área de Front-end. Si te gusta mi trabajo, <a href="#contacto">contáctame!</a></p>
+          <p>Habrá actualizaciones en el sitio web, así que visítalo pronto.</p>
+        </div>
+      </section> 
+
+    <!--PORTFOLIO-->
+    <section id="portfolio">
+        <h2 class="subtitulo-2">Mis Proyectos</h2>
+
+        <div class="row">
+          
+          <div class="col-sm-4">
+          <div class="proyecto">
+            <figure>
+              <a href="https://landing-page-practica-fmentor.netlify.app" target="_blank"><img src="imagenes/landing-clipboard.jpg"></a>
+              <figcaption>
+                <h4>Clipboard Landing page</h4>
+                <p>Este es un desafío de Landing Page que proporciona la plataforma Frontend Mentor. He realizado maquetación con HTML y CSS.</p>
+              </figcaption>
+            </figure>
+          </div>
+            </div>
+      
+          <div class="col-sm-4">
+          <div class="proyecto">
+            <figure>
+              <a href="https://preview-card-practica-fmentor.netlify.app" target="_blank"><img src="imagenes/nft-card.jpg"></a> 
+              <figcaption>
+                <h4>NFT preview card component</h4>
+                <p>Desafío preview card component de Frontend Mentor. Trabajado con HTML y CSS.</p>
+              </figcaption>
+            </figure>
+          </div>
+            </div>
+      
+          <div class="col-sm-4">
+          <div class="proyecto">
+            <figure>
+              <a href="https://cv-proyectofinal-argentinaprograma.netlify.app" target="_blank"><img src="imagenes/screencapture-cv-proyectofinal-argentinaprograma-netlify-app-2023-02-12-01_30_56.png"></a>
+              <figcaption>
+                <h4>Curriculum Vitae</h4>
+                <p>Proyecto final del curso Primeros pasos del desarrollo frontend de Argentina Programa 4.0.</p>
+              </figcaption>
+            </figure>
+          </div>
+            </div>
+          </div>
+        
+        <div class="row">
+          
+          <div class="col-sm-4">
+          <div class="proyecto">
+            <figure>
+              <a href="https://mi-propia-aventura-labyrinth.netlify.app" target="_blank"><img src="imagenes/laberinto.png"></a>
+              <figcaption>
+                <h4>Elige tu propia aventura</h4>
+                <p>Cada página te describe una situación de la aventura y te da dos opciones para que decidas qué hacer.</p>
+              </figcaption>
+            </figure>
+          </div>
+            </div>
+      
+          <div class="col-sm-4">
+          <div class="proyecto">
+            <figure>
+              <a href="https://lighthearted-capybara-e78cf4.netlify.app/" target="_blank"><img src="imagenes/landing-galeria.png"></a> 
+              <figcaption>
+                <h4>Landing Page</h4>
+                <p>Una galeria de fotos de fotógrafo Igor Rand.</p>
+              </figcaption>
+            </figure>
+          </div>
+            </div>
+      
+          <div class="col-sm-4">
+          <div class="proyecto">
+            <figure>
+              <a href="https://dashing-syrniki-29d148.netlify.app/" target="_blank"><img src="imagenes/instapet.png"></a>
+              <figcaption>
+                <h4>InstaPet</h4>
+                <p>Red social para tus mascotas.</p>
+              </figcaption>
+            </figure>
+          </div>
+            </div>
+          </div>
+      </section>
+
+    <!--CONTACTO-->
+
+    <section id="contacto">
+    
+      <h2 class="subtitulo-3">Contactame</h2>
+      
+      <div class="contenedor-form">
+      <form  action="https://formspree.io/f/xjvzoelk"
+       method="POST">
+        <div class="mb-3">
+          <label for="exampleInputName" class="form-label">Nombre y Apellido</label>
+          <input type="text" id="exampleInputName" class="form-control" name="nombre" placeholder="nombre y apellido">
+        </div>
+       <div class="mb-3">
+         <label for="exampleInputEmail1" class="form-label">Dirección de email</label>
+         <input type="email" class="form-control" id="exampleInputEmail1"  name="email" placeholder="correo electrónico">
+       </div>
+       <div class="mb-3">
+          <label for="tel" class="form-label">Teléfono</label>
+          <input type="tel" class="form-control" id="tel" name="tel" placeholder="n° de teléfono">
+        </div>
+       <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+       <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+    </div>
+    </section>
+
+    <!--FOOTER-->
+
+    <footer>
+      <p>© 11/2022 - Villaguay - Entre Rios.</p>
+       <div class="redes">
+              <a href="https://github.com/taninaFED" target="_blank"><i class="fa-brands fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/tania-veleiz%C3%A1n-728571235/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+</main>
+</body>
+</html>

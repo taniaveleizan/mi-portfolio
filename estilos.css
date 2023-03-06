@@ -1,0 +1,203 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+header .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+main{
+    margin-top: 2%;
+}
+.container-fluid {
+    margin-left: 25%;
+}
+.navbar-nav{
+   margin-left: 30px;
+}
+.navbar-brand{
+    text-align: center;
+    color: #ffa69e;
+    font-size: 1.2em;
+}
+.navbar-brand:hover{
+    color: #363635;
+}
+.nav-link{
+    color: #363635;
+    margin: 0 12px;
+    font-size: 1.2em;
+    transition: .5s;
+}
+.nav-link:hover{
+    color: #ffa69e;
+    text-decoration: underline;
+}
+/*PRESENTACION*/
+#inicio {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(imagenes/james-harrison-vpOeXr5wmR4-unsplash.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+.presentacion {
+    height: 100vh;
+    margin: auto;
+    color: #fff; /*CAMBIAR COLOR CUANDO TENGA DEFINIDO EL FONDO*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.presentacion p {
+    font-size: 3.5em;
+    margin-bottom: 25px;
+    text-align: center;
+}
+h1{
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+span{
+    color: #ffa69e;
+}
+.circulo{
+    height: 200px;
+    width: 200px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    overflow: hidden;
+    margin-top: 1.5%;
+}
+.circulo img{
+    margin: 0 auto; 
+}
+.ver-mas{
+    margin-top: 40px;
+    text-decoration: none;
+    background-color: #fff;
+    color: #363635;
+    border: 1px solid #565656;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 20px;
+}
+.ver-mas:hover{
+    color: #fff;
+    background-color: #ffa69e;
+}
+/*SOBRE MI*/
+#sobremi{
+    margin: auto;
+    padding: 100px 15px;
+    color: #363635;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+}
+
+.sobremi-box p {
+    color: #565656;
+    margin-top: 42px;
+}
+.sobremi-box .subtitulo-1 {
+    font-size: 1.8em;
+    text-transform: uppercase;
+    color: #363635;
+    text-decoration: underline;
+    text-decoration-color: #d3d3d3;
+}
+
+.sobremi-box a {
+    color: inherit;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.sobremi-box a:hover{
+    color: #ffa69e;
+    text-decoration: underline;
+}
+
+/*PORTFOLIO*/
+#portfolio{
+    padding: 100px 0;
+    margin: auto;
+}
+#portfolio .subtitulo-2,
+#contacto .subtitulo-3{
+    text-align: center;
+    font-size: 1.8em;
+    text-transform: uppercase;
+    color: #363635;
+    text-decoration: underline;
+    text-decoration-color: #d3d3d3;
+    margin-bottom: 40px;
+}
+#portfolio .row{
+    margin: 30px 0;
+}
+.proyecto {
+    margin: 0 10px;
+    overflow: hidden;
+}
+.proyecto img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.proyecto img:hover{
+    width: 105%;
+}
+figcaption{    
+    background-color: rgba(0, 0 , 0, 0.8);
+    color: #d3d3d3;
+    padding: 10px;
+}
+/*CONTACTO*/
+.contenedor-form{
+    margin: auto;
+    width: 50%;
+}
+.btn-primary{
+    display: block;
+    margin: auto;
+    transition: .5s;
+    padding: 10px 15px;
+    background-color: #f3f3f3;
+    color: #000;
+    border: 1px solid #000;
+    font-size: 18px;
+    font-weight: bold;
+}
+.btn-primary:hover{
+    background-color: #ffa69e;
+    color: #fff;
+    border: 2px solid #f3f3f3;
+}
+/*FOOTER*/
+footer{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 25px;
+    margin-top: 2%;
+}
+.redes a{
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    margin-left: 10px;
+    transition: .5s;
+  }
+.redes a:hover{
+      color: #ffa69e;
+}
